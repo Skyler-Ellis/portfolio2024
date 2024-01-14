@@ -1,0 +1,50 @@
+/*Khaki #B3AD9D / Cafe Noir #4A3B26 / Bistre Brown #472C23 /Ecru Yellow #B4A459 / Space Cadet Blue #1B285D */
+
+
+
+body{
+    margin: auto;
+    padding: 10%;
+    background: scroll;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOfljmXKdyVSHgVl8jOH0EzlD3mqBqXoDu_g&usqp=CAU);
+    color:#4A3B26 ;
+    text-align: center;
+}
+
+header{
+    background-color: #B3AD9D;
+    border: #472C23 solid 10px;
+}
+
+
+form{
+    margin: auto;
+    padding: 10%;
+    
+    
+}
+
+.fieldset{
+    background: #1B285D;
+    color: #B4A459;
+    border: none;
+    padding-bottom: 3%;
+}
+
+input{
+    background-color:#B3AD9D ;
+    color:#472C23 ;
+    border: #4A3B26 solid 5px;
+    
+}
+
+.submit{
+    box-shadow: #1B285D;
+    background-color: #1B285D;
+    color: #B4A459;
+}
+
+#gender, #history{
+    background-color: #B3AD9D;
+    color: #472C23 ;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    
+  <!-- survey title -->
+ <div class="title" ></div><header><h1>New Patient Form</h1></header></div>
+    <form action="" method="post">
+        <!-- each field below should have a input element and a label -->
+      <fieldset class="1 fieldset">
+
+        <!-- first name -->          
+        <label for="first-name">First Name</label><br>
+        <input id="first-name" type="text" name="first-name" required placeholder="First Name">
+        <br>
+       
+        <!-- last name -->
+        <label for="last-name">Last Name</label><br>
+        <input id="last-name" type="text" name="last-name" required placeholder="Last Name"><br>
+      
+
+        <!-- Date of Birth -->
+       <label for="birthday">Date of Birth</label><br>
+        <input id="birthday" type="date" name="birthday" required><br>
+      </fieldset>
+
+      <fieldset class="3 fieldset">
+        <!-- Gender -->
+         <label for="gender" >Gender Identity<br>
+            <select id="gender">
+              <option value="">(select one)</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Nonbinary</option>
+              <option value="4">Other</option>
+            </select>
+          </label><br>
+
+          <label for="other">If Other</label><br>
+          <input id="other" type="text" />
+      </fieldset>
+  
+        <fieldset class="2 fieldset">
+        <!-- Address -->
+        <label for="address">Address</label><br>
+        <input id="address" type="text" ><br>
+
+        <!-- phone number -->  
+       <label for="phone-number">Phone Number</label><br>
+        <input id="phone-number" type="tel"  ><br>
+
+        <!-- email  -->
+        <label for="email">Email</label><br>
+        <input id="email" type="email"  ><br>
+        
+
+        <!-- Insurance -->
+        <label for="Insurance">Insurance</label><br>
+        <input id="Insurance" type="text" ><br>
+        
+
+        <!-- medical history -->
+        <label for="history">Medical History</label><br>
+        <textarea id="history" ></textarea>
+        </fieldset>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input class="submit" type="submit" value="Submit">
+    </form>
+</div>
+</html>
