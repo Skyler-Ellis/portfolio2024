@@ -1,0 +1,54 @@
+/* brown #725B58 / yellow #B98955 / blue #39667F / gray #A8B9CD / offWhite #E2ECF9 */
+
+*{
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: auto;
+}
+.navbar{
+    background: scroll ;
+
+    
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, 100px);
+    gap: 1em;
+}
+
+.about{
+    margin-top: 25em;
+    grid-column: 1/3;
+    grid-row-start: auto;
+}
+
+.projects{
+    grid-row-start: 2;
+    grid-column: 1/3;
+    grid-row-end: auto;
+}
+
+.contact{
+    
+    border: 1em solid #B98955 ;
+    background: #725B58;
+    text-align: center;
+    color: whitesmoke; 
+    padding: 10px;
+    grid-row-start:8 ;
+    grid-column: 1/3;
+    
+}
+input, textarea{
+    border: 10px solid #E2ECF9; 
+    align-items: ;
+    background: #39667F;
+    color: white ;
+    padding: 1%;
+    font-style: italic;
+}
