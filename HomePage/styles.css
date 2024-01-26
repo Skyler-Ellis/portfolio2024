@@ -7,10 +7,17 @@ img{
     width: 250px;
     height: auto;
 }
-.navbar{
-    background: scroll ;
 
-    
+.navbar{
+    background: scroll ; 
+}
+
+body {
+    background-image: url("https://commons.wikimedia.org/wiki/File:Ceiling_of_Grand_cabinet_de_la_reine_-_Louvre.jpg");
+  }
+
+ul{
+    list-style-type: none;
 }
 
 .container{
