@@ -5,7 +5,6 @@
   margin-top: 2%;
   position: fixed;
   overflow: auto;
-  
 }
 button{
   
@@ -13,12 +12,23 @@ button{
   display:block;
   padding: 5% 10%;
   border-radius: 180%;
+  border: solid 1em black;
+  background-color: lightgoldenrodyellow;
+  color: skyblue;
+  
   
 }
 button:hover {
-  background-color: #555;
+  background-color: skyblue;
   color: white;
+}
+a{
+  text-decoration: none;
+  color: black
 }
 .main-section{
   padding-left: 25%;
+}
+header{
+  background-color: skyblue;
 }
