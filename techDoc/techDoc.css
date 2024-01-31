@@ -1,3 +1,11 @@
 @media screen and (max-width:600px){
-    width:50px;
-  }
+  width:50px;
+}
+
+button{
+  display: block;
+  width: 20%;
+}
+.main-section{
+  padding-left: 25%;
+}
