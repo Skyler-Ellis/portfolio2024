@@ -8,23 +8,25 @@
 }
 button{
   
-  width: 70%;
+  width: 64%;
   display:block;
   padding: 5% 10%;
-  border-radius: 180%;
-  border: solid 1em black;
-  background-color: lightgoldenrodyellow;
-  color: skyblue;
+  border-radius: 18%;
+  border: solid 2em lightblue;
+  background-color: skyblue;
+  
   
   
 }
 button:hover {
-  background-color: skyblue;
-  color: white;
+  background-color: lightblue;
+  border: solid 2em white;
 }
 a{
   text-decoration: none;
-  color: black
+  color: black;
+  text-align: center;
+  
 }
 .main-section{
   padding-left: 25%;
